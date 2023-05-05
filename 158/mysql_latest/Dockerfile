@@ -1,0 +1,9 @@
+FROM mysql:latest
+ENV MYSQL_ROOT_PASSWORD=sml12345
+ENV MYSQL_DATABASE=sourcedb
+ENV MYSQL_USER=dbadmin
+ENV MYSQL_PASSWORD=sml12345
+COPY my.cnf /etc/mysql/my.cnf
+EXPOSE 3306
+
+CMD ["mysqld"]
