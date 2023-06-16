@@ -1,8 +1,0 @@
-version: '3'
-services:
-   mysql_5:
-    build: .
-    ports:
-    - 3306:3306
-    volumes:
-    - ./vol:/src
