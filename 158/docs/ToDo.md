@@ -5,7 +5,7 @@
 # Konzept - Jamie
 - [x] Migrationskonzept (JRO)
 - [ ] Migrationszeitplan
-- [ ] Testkonzept
+- [x] Testkonzept
 # Realisierung - Elis
 - [ ] Detailspezifikation
 - [ ] Umsetzung Migration
