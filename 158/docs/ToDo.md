@@ -4,7 +4,7 @@
 - [x] Projektauftrag
 # Konzept - Jamie
 - [x] Migrationskonzept (JRO)
-- [ ] Migrationszeitplan
+- [x] Migrationszeitplan
 - [x] Testkonzept
 # Realisierung - Elis
 - [ ] Detailspezifikation
