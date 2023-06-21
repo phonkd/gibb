@@ -17,7 +17,7 @@
 # Realisierung - Elis
 
 - [x] Detailspezifikation
-- [ ] Umsetzung Migration
+- [x] Umsetzung Migration
 - [ ] Testprotokoll
 
 # Einführung - Elis
