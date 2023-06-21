@@ -2,12 +2,16 @@
 
 - [x] Situationsanalyse (JRO)
 - [ ] Entscheid Migrationsvarianten
+<<<<<<< HEAD
 - [ ] Projektauftrag
 
+=======
+- [x] Projektauftrag
+>>>>>>> ba96ad2efd01444438c181493497f53e612f437b
 # Konzept - Jamie
 
 - [x] Migrationskonzept (JRO)
-- [ ] Migrationszeitplan
+- [x] Migrationszeitplan
 - [x] Testkonzept
 
 # Realisierung - Elis

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bbab34baab59c73f",
+        "id": "6f6586b70a097b2f",
         "type": "tabs",
         "children": [
           {
-            "id": "343ea63745e0b126",
+            "id": "0fcf3ba1475c8121",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hermes/Initialisierungsphase.md",
+                "file": "158/docs/ToDo.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hermes/Initialisierungsphase.md",
+                "file": "158/docs/ToDo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hermes/Initialisierungsphase.md",
+                "file": "158/docs/ToDo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hermes/Initialisierungsphase.md"
+                "file": "158/docs/ToDo.md"
               }
             }
           }
@@ -146,15 +146,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "343ea63745e0b126",
+  "active": "0fcf3ba1475c8121",
   "lastOpenFiles": [
-    "hermes/Einführung.md",
-    "hermes/Initialisierungsphase.md",
-    "hermes/Realisierung.md",
-    "hermes/Konzeptphase.md",
     "README.md",
-    "hermes",
-    "158/05_Theorie_Sequenzen/05_Theorie_Sequenzen/M158-Software-Migration-Theorie-Sequenz-2.pdf",
-    "158/05_Theorie_Sequenzen/05_Theorie_Sequenzen/M158-Software-Migration-Theorie-Sequenz-1.pdf"
+    "158/docs/~WRL0459.tmp",
+    "158/docs/~WRD0435.tmp",
+    "158/docs/~WRL1394.tmp",
+    "158/docs/~WRD1366.tmp",
+    "158/docs/~WRL2975.tmp",
+    "158/docs/~WRD2947.tmp",
+    "158/docs/~WRL2453.tmp",
+    "158/docs/~WRD2426.tmp",
+    "158/docs/~WRL3292.tmp",
+    "158/docs/~WRD3264.tmp",
+    "158/docs/ToDo.md",
+    "158/hermes.md",
+    "158/Bewertungskriterien.md",
+    "hermes/Initialisierungsphase.md",
+    "hermes/Einführung.md",
+    "hermes/Realisierung.md",
+    "hermes/Konzeptphase.md"
   ]
 }

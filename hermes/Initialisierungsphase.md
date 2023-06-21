@@ -1,4 +1,4 @@
-jjjjfjf***
+***
 ## Basics
 **Ziel**:
 Auftraggeber kann entscheiden ob projekt durchgeführt werden soll/kann.
