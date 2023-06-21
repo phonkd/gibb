@@ -1,7 +1,7 @@
 # Initialisierung - Jamie
 - [x] Situationsanalyse (JRO)
 - [ ] Entscheid Migrationsvarianten
-- [ ] Projektauftrag
+- [x] Projektauftrag
 # Konzept - Jamie
 - [x] Migrationskonzept (JRO)
 - [ ] Migrationszeitplan
