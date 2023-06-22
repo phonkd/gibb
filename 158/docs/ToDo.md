@@ -3,7 +3,6 @@
 - [x] Situationsanalyse (JRO)
 - [ ] Entscheid Migrationsvarianten
 - [x] Projektauftrag
-- [x] Projektauftrag
 # Konzept - Jamie
 
 - [x] Migrationskonzept (JRO)
@@ -14,11 +13,11 @@
 
 - [x] Detailspezifikation
 - [x] Umsetzung Migration
-- [ ] Testprotokoll
+- [x] Testprotokoll
 
 # Einführung - Elis
 
 - [ ] Entscheid zur Abnahme vorbereiten
-- [ ] Abnahme Protokoll erstellen
+- [x] Abnahme Protokoll erstellen
 - [ ] Betriebshandbuch erstellen
 - [ ] Freigabeantrag erstellen
