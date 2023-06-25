@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "630425efad3bdc3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "143/todo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -147,12 +160,19 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "3095f85495558b51",
+  "active": "630425efad3bdc3e",
   "lastOpenFiles": [
+    "143/umsetzung/backup/25-06-2023.sql",
+    "143/umsetzung/backup/25-06-2023",
+    "143/umsetzung/vol/database_backup.sql",
+    "143/umsetzung/backup_restore.sh",
+    "143/umsetzung/backup_script.sh",
+    "143/umsetzung/anleitung.md",
+    "143.md",
+    "143/todo.md",
     "158/mysql/mysql_latest.zip~RF401536.TMP",
     "158/mysql/mysql_latest.zip",
     "143/chatgpt output.md",
-    "143/todo.md",
     "143/shitincl_kriterie.pdf",
     "143/Kriterien.png",
     "143/~$tenbanksicherung.docx"

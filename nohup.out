@@ -1,0 +1,35 @@
+
+** (nemo:1263): WARNING **: 19:49:21.318: Current gtk theme is not known to have nemo support (Nordic-darker-standard-buttons) - checking...
+
+(nemo:1263): Gtk-WARNING **: 19:49:21.357: Theme directory 64/devices of theme Gruvbox has no size field
+
+
+(nemo:1263): Gtk-WARNING **: 19:49:21.377: Creating a portal monitor failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+error: Broken zip file structure
+Gdk-Message: 19:49:48.633: Error reading events from display: Broken pipe
+Application Error
+
+Fatal exception: Signal 6
+Stack:
+/opt/openoffice4/program/libuno_sal.so.3(+0x37c3a)[0x7f1f19837c3a]
+/opt/openoffice4/program/libuno_sal.so.3(+0x37d6c)[0x7f1f19837d6c]
+/opt/openoffice4/program/libuno_sal.so.3(+0x37e09)[0x7f1f19837e09]
+/usr/lib/libc.so.6(+0x39ab0)[0x7f1f18e4fab0]
+/usr/lib/libc.so.6(+0x8926c)[0x7f1f18e9f26c]
+/usr/lib/libc.so.6(gsignal+0x18)[0x7f1f18e4fa08]
+/usr/lib/libc.so.6(abort+0xd7)[0x7f1f18e38538]
+/opt/openoffice4/program/libvcl.so(+0x1557e1)[0x7f1f149557e1]
+/opt/openoffice4/program/libsofficeapp.so(+0x2352b)[0x7f1f1942352b]
+/opt/openoffice4/program/libvcl.so(+0x17ff32)[0x7f1f1497ff32]
+/opt/openoffice4/program/libuno_sal.so.3(+0x36a02)[0x7f1f19836a02]
+/opt/openoffice4/program/libuno_sal.so.3(osl_raiseSignal+0x45)[0x7f1f19836d55]
+/opt/openoffice4/program/libvclplug_gen.so(_ZN10X11SalData11XIOErrorHdlEP9_XDisplay+0x2e)[0x7f1f0b038264]
+/usr/lib/libX11.so.6(_XIOError+0x63)[0x7f1f192fe793]
+/usr/lib/libX11.so.6(_XEventsQueued+0x87)[0x7f1f193017e7]
+/usr/lib/libX11.so.6(XPending+0x58)[0x7f1f192efd08]
+/opt/openoffice4/program/libvclplug_gen.so(+0x57c3f)[0x7f1f0b057c3f]
+/opt/openoffice4/program/libvclplug_gen.so(+0x57dd3)[0x7f1f0b057dd3]
+/opt/openoffice4/program/libuno_sal.so.3(+0x312d2)[0x7f1f198312d2]
+/usr/lib/libc.so.6(+0x8744b)[0x7f1f18e9d44b]
+/usr/lib/libc.so.6(+0x10ae40)[0x7f1f18f20e40]
+/opt/openoffice4/program/soffice: line 121:  1345 Aborted                 (core dumped) "$sd_prog/$sd_binary" "$@"
