@@ -8,12 +8,13 @@
 
 ## To-do
 
-
-- [ ] Umgebung identifizieren und beschreiben (system und applikationskomponenten)
-- [ ] Sicherheisanforderungen
-- [ ] Daten (Zu sichernde daten identifizieren)
-- [ ] Datenwachstum abschätzen
-- [ ] Sicherungsalgorithmus und zeiden (auswahl und begründung)
+- [x] Kopf-Fusszeile (Sean)
+- [ ] Format (Sean)
+- [x] Umgebung identifizieren und beschreiben (system und applikationskomponenten) Elis
+- [x] Sicherheisanforderungen (Elis)
+- [x] Daten (Zu sichernde daten identifizieren) (jamie)
+- [ ] Datenwachstum abschätzen (Alex)
+- [ ] Sicherungsalgorithmus und zeiden (auswahl und begründung) (Alex)
 - [ ] Speichermedien definieren
 - [ ] Siehe Kriterium 10
 - [ ] Sicherungssoftware (eue RSYNC)
@@ -23,3 +24,4 @@
 - [ ] Zeitraum
 - [ ] Anleitung backup&restore
 - [ ] Abweichung projektidee begründen
+- [x] Mitm Hung ga loufe (Sean)

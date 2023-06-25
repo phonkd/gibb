@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "143/chatgpt output.md",
+                "file": "143/todo.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "143/chatgpt output.md",
+                "file": "143/todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "143/chatgpt output.md",
+                "file": "143/todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "143/chatgpt output.md"
+                "file": "143/todo.md"
               }
             }
           }
@@ -149,8 +149,10 @@
   },
   "active": "3095f85495558b51",
   "lastOpenFiles": [
-    "143/todo.md",
+    "158/mysql/mysql_latest.zip~RF401536.TMP",
+    "158/mysql/mysql_latest.zip",
     "143/chatgpt output.md",
+    "143/todo.md",
     "143/shitincl_kriterie.pdf",
     "143/Kriterien.png",
     "143/~$tenbanksicherung.docx"
