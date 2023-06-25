@@ -1,43 +1,21 @@
 {
   "main": {
-    "id": "335a91ccd9f7bdc0",
+    "id": "1497fb60384b2d35",
     "type": "split",
     "children": [
       {
-        "id": "568b125f218fce3e",
+        "id": "549660fc2eba6e45",
         "type": "tabs",
-        "dimension": 43.36810730253353,
         "children": [
           {
-            "id": "0fcf3ba1475c8121",
+            "id": "3095f85495558b51",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "143/todo.md",
+                "file": "143/chatgpt output.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "6f6586b70a097b2f",
-        "type": "tabs",
-        "dimension": 56.63189269746647,
-        "children": [
-          {
-            "id": "5190cfda1798ed72",
-            "type": "leaf",
-            "state": {
-              "type": "terminal:documentation",
-              "state": {
-                "terminal:documentation": {
-                  "data": "# Terminal for Obsidian [![release](https://img.shields.io/github/v/release/polyipseity/obsidian-terminal)][latest release] [![Obsidian downloads](https://img.shields.io/badge/dynamic/json?logo=Obsidian&color=%238b6cef&label=downloads&query=$[\"terminal\"].downloads&url=https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugin-stats.json)][community plugin] [![Python](https://img.shields.io/badge/Python-≥3.10-gold?labelColor=blue&logo=Python&logoColor=white)][Python]\n\n[Buy Me a Coffee]: https://buymeacoffee.com/polyipseity\n[Buy Me a Coffee/embed]: https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=polyipseity&button_colour=40DCA5&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00\n[Obsidian]: https://obsidian.md/\n[Python]: https://python.org/downloads/\n[changelog]: https://github.com/polyipseity/obsidian-terminal/blob/main/CHANGELOG.md\n[community plugin]: https://obsidian.md/plugins?id=terminal\n[latest release]: https://github.com/polyipseity/obsidian-terminal/releases/latest\n[other things]: https://github.com/polyipseity/obsidian-monorepo\n[plugin library]: https://github.com/polyipseity/obsidian-plugin-library\n[repository]: https://github.com/polyipseity/obsidian-terminal\n[trailer]: https://raw.githubusercontent.com/polyipseity/obsidian-terminal/main/assets/trailer.png\n\nIntegrate consoles, shells, and terminals inside [Obsidian].\n\n[![Buy Me a Coffee/embed]][Buy Me a Coffee]\n\n__[Repository] · [Changelog] · [Community plugin] · [Other things] · [Features](#features) · [Installation](#installation) · [Usage](#usage) · [Contributing](#contributing) · [Security](#security)__\n\n![Trailer]\n\nFor first time users, read the [installation](#installation) section first!\n\nThis file is automatically opened on first install. You can reopen it in settings or command palette.\n\n## Features\n\n- Start external terminals from Obsidian.\n- Integrate terminals into Obsidian.\n- Supports multiple terminal profiles.\n- Has built-in hotkeys.\n- Automatically save and restore integrated terminal history.\n- Find in terminal.\n- Save terminal history as file.\n\n## Installation\n\n1. Install plugin.\n\t- Community plugins\n\t\t1. Install the [plugin][community plugin] from community plugins directly.\n\t- Manual\n\t\t1. Create directory `terminal` under `.obsidian/plugins` of your vault.\n\t\t2. Place `manifest.json`, `main.js`, and `styles.css` from the [latest release] into the directory.\n\t- Building (latest)\n\t\t1. Clone this repository, including its submodules.\n\t\t2. Install [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).\n\t\t3. Run `npm install` in the root directory.\n\t\t4. Run `npm run obsidian:install <vault directory>` in the root directory.\n\t- [Obsidian42 - BRAT](https://obsidian.md/plugins?id=obsidian42-brat) (latest)\n\t\t- See [their readme](https://github.com/TfTHacker/obsidian42-brat#readme).\n2. (optional for Windows, recommended) Install Python and dependencies.\n\t1. Install [Python] 3.10/+.\n\t2. (Windows only) Run `pip3 install psutil pywinctl`.\n\t3. Configure Python executable in plugin settings.\n3. Enable plugin.\n4. (optional) Configure plugin settings.\n\n## Usage\n\n- To start a new external or integrated terminal\n\t- Ribbon\n\t\t1. Click on the `Open terminal` ribbon.\n\t\t2. Choose the desired profile.\n\t- Context menu\n\t\t1. Right-click on files, folders, or tab headers.\n\t\t2. Choose the desired action (and profile).\n\t- Command palette\n\t\t1. Press `Ctrl+P` or click on the `Open command palette` ribbon next to the left window border.\n\t\t2. Choose the desired action (and profile).\n- To save and restore integrated terminal history\n\t1. Keep the terminal open when exiting Obsidian.\n\t2. Terminal history will be restored next time Obsidian is opened.\n- Additional actions\n\t- Includes\n\t\t- Find in terminal: (1), (4)\n\t\t- Clear terminal: (1), (4)\n\t\t- Restart terminal: (1)\n\t\t- Edit terminal: (1)\n\t\t- Save terminal history as file: (1)\n\t\t- Export, import, or edit settings: (2), (3)\n\t\t- Open documentation: (2), (3)\n\t- Available by\n\t\t- (1) Right-click on tab header/`More options`\n\t\t- (2) Open settings\n\t\t- (3) Open command palette\n\t\t- (4) Use hotkeys\n\n### Hotkeys\n\n__Terminal tab is focused__\n- Focus terminal: `Ctrl`+`Shift`+`` ` ``, `Command`+`` ` `` (macOS)\n- Inherit from app hotkeys\n\n__Terminal is focused__\n- Focus terminal tab/Unfocus terminal: `Ctrl`+`Shift`+`` ` ``, `Command`+`` ` `` (macOS)\n- Clear terminal: `Ctrl`+`Shift`+`K`, `Command`+`K` (macOS)\n- Find in terminal: `Ctrl`+`Shift`+`F`, `Command`+`F` (macOS)\n\n### Profiles\n\nThis plugin comes with several profile presets that you can reference.\n\nWhen setting up a terminal profile, you need to distinguish between shells and terminal emulators. (Search online if needed.) Generally, integrated profiles only work with shells while external ones only work with terminal emulators.\n\n#### Examples\n\n__Shells__\n- Bash: `bash`\n- Bourne shell: `sh`\n- Command Prompt: `cmd`\n- Dash: `dash`\n- Git Bash: `<Git installation>\\bin\\bash.exe` (e.g. `C:\\Program Files\\Git\\bin\\bash.exe`)\n- PowerShell Core: `pwsh`\n- Windows PowerShell: `powershell`\n- Windows Subsystem for Linux: `wsl` or `wsl -d <distribution name>`\n- Z shell: `zsh`\n\n__Terminal emulators__\n- Command Prompt: `cmd`\n- GNOME Terminal: `gnome-terminal`\n- Konsole: `konsole`\n- Terminal (macOS): `/System/Applications/Utilities/Terminal.app/Contents/macOS/Terminal $PWD`\n- Windows Terminal: `wt`\n- xterm: `xterm`\n\n### Miscellaneous\n\nThis plugin patches `require` so that `require(\"obsidian\")` works in the developer console.\n\nIn the developer console, a context variable `$$` is passed into the code, which can be used to dynamically change terminal options. The API is available in [`sources/@types/obsidian-terminal.d.ts#DeveloperConsoleContext`](sources/%40types/obsidian-terminal.d.ts).\n\n## Contributing\n\nContributions are welcome!\n\n### Todos\n\nThe todos here, ordered alphabetically, are things planned for the plugin. There are no guarantees that they will be completed. However, we are likely to accept contributions for them.\n\n- Connect to remote shells.\n- Copy terminal tabs.\n- Create ad-hoc profile in `Open terminal: Select`.\n- Edit profile before opening terminal in `Open terminal: Select` when a modifier key is pressed.\n- External link confirmation.\n- Filter console log by severity in the developer console.\n- Fix broken section links in builtin documentations.\n- Indicate that the terminal resizer has crashed or is disabled.\n- Shared terminal tabs.\n- Theme settings UI.\n- Vim mode switch.\n\n### Translating\n\nTranslation files are under [`assets/locales/`](assets/locales/). Each locale has its own directory named with its corresponding __[IETF language tag](https://wikipedia.org/wiki/IETF_language_tag)__. Some translation keys are missing here and instead located at [`obsidian-plugin-library`][plugin library].\n\nTo contribute translation for an existing locale, modify the files in the corresponding directory.\n\nFor a new locale, create a new directory named with its language tag and copy [`assets/locales/en/translation.json`](assets/locales/en/translation.json) into it. Then, add an entry to [`assets/locales/en/language.json`](assets/locales/en/language.json) in this format:\n```JSONc\n{\n\t// ...\n\t\"en\": \"English\",\n\t\"(your-language-tag)\": \"(Native name of your language)\",\n\t\"uwu\": \"Uwuish\",\n\t// ...\n}\n```\nSort the list of languages by the alphabetical order of their language tags. Then modify the files in the new directory. There will be errors in [`assets/locales.ts`](assets/locales.ts), which you can ignore and we will fix them for you. You are welcome to fix them yourself if you know TypeScript.\n\nWhen translating, keep in mind the following things:\n- Do not translate anything between `{{` and `}}` (`{{example}}`). They are __interpolations__ and will be replaced by localized strings at runtime.\n- Do not translate anything between `$t(` and `)` (`$t(example)`). They refer to other localized strings. To find the localized string being referred to, follow the path of the key, which is separated by dots (`.`). For example, the key [`youtu.be./dQw4w9WgXcQ`](https://youtu.be./dQw4w9WgXcQ) refers to:\n```JSONc\n{\n\t// ...\n\t\"youtu\": {\n\t\t// ...\n\t\t\"be\": {\n\t\t\t// ...\n\t\t\t\"/dQw4w9WgXcQ\": \"I am 'youtu.be./dQw4w9WgXcQ'!\",\n\t\t\t// ...\n\t\t},\n\t\t// ...\n\t},\n\t// ...\n}\n```\n- The keys under `generic` are vocabularies. They can be referred in translation strings by `$t(generic.key)`. Refer to them as much as possible to standardize translations for vocabularies that appear in different places.\n- It is okay to move interpolations and references to other localized strings around to make the translation natural. It is also okay to not use some references used in the original translation. However, it is NOT okay to not use all interpolations.\n\n## Security\n\nWe hope that there will never be any security vulnerabilities, but unfortunately it does happen. Please [report](#reporting-a-vulnerability) them!\n\n### Supported versions\n\n| Version | Supported |\n|-|-|\n| latest | ✅ |\n| outdated | ❌ |\n\n### Reporting a vulnerability\n\nPlease report a vulerability by opening an new issue. We will get back to you as soon as possible.\n",
-                  "displayTextI18nKey": "translation:generic.documentations.readme",
-                  "iconI18nKey": "asset:generic.documentations.readme-icon"
-                }
               }
             }
           }
@@ -47,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f535c578e5230f5f",
+    "id": "eba7b6d0d87f69fe",
     "type": "split",
     "children": [
       {
-        "id": "e02198215a1d7269",
+        "id": "7d11a6115efef89f",
         "type": "tabs",
         "children": [
           {
-            "id": "03617f5bb684803b",
+            "id": "f2c154a7fee0a604",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -65,7 +43,7 @@
             }
           },
           {
-            "id": "64f12c31f32d0cbc",
+            "id": "6241c7e93764702e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -80,7 +58,7 @@
             }
           },
           {
-            "id": "9ac70a3558fa0ddf",
+            "id": "6c60597a34f8bb85",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -91,22 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 300
   },
   "right": {
-    "id": "fa0384bacd9321b6",
+    "id": "6b7556f91658405f",
     "type": "split",
     "children": [
       {
-        "id": "eecb43a8008c47aa",
+        "id": "c5abb234cb0ad6d6",
         "type": "tabs",
         "children": [
           {
-            "id": "13ea8112c286aac5",
+            "id": "4fd57f8e6f0b7ddc",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "143/chatgpt output.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,18 +97,19 @@
             }
           },
           {
-            "id": "2b2379ac9752d39a",
+            "id": "3a2ff49909e9bc8a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "143/chatgpt output.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "57b1533edead39c7",
+            "id": "365c36acf6bc638f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -140,11 +120,13 @@
             }
           },
           {
-            "id": "39016541b703e1cd",
+            "id": "ba066e6ea7148015",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "143/chatgpt output.md"
+              }
             }
           }
         ]
@@ -165,59 +147,12 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "5190cfda1798ed72",
+  "active": "3095f85495558b51",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "158/docs/~WRL3319.tmp",
-    "158/docs/~WRD3272.tmp",
-    "158/docs/~WRD3264.tmp",
-    "158/docs/MySQL-Migration.pdf",
-    "158/docs/mso1661.tmp",
-    "158/docs/msoC2E.tmp",
-    "158/docs/~$SQL-Migration.docx",
-    "158/docs/MySQL-Migration.docx",
-    "158/docs/~WRD0005.tmp",
-    "158/mysql/readme.md",
     "143/todo.md",
-    "143/ab/todo.md",
-    "158/docs/Migration.pptm",
-    "158/docs/MySQLDatenmigration.pptm",
-=======
-    "158/docs/Migration.pptm",
-    "158/docs/~$nahmeprotokoll.dotx",
-    "158/docs/~$nahmeprotokoll.docx",
-    "143/~$tenbanksicherung.docx",
-    "143/todo.md",
+    "143/chatgpt output.md",
+    "143/shitincl_kriterie.pdf",
     "143/Kriterien.png",
-    "158/docs/ToDo.md",
-    "158/docs/~$MySQLDatenmigration.pptm",
-    "143/ab/todo.md",
-    "143/Datenbanksicherung.docx",
-    "english/presentations/ppt486F.tmp",
-    "english/presentations/ppt435D.tmp",
-    "english/presentations/~$BenefitsOfAColdShower.pptx",
-    "english/presentations/BenefitsOfAColdShower.pptx",
-    "english/presentations/Microsoft PowerPoint-Präsentation (neu).pptx",
->>>>>>> 3fc3debc536ed1969b7736a44889c5edd3c5c5e5
-    "158/mysql/mysql_latest/vol/images/employees.jpg",
-    "158/mysql/mysql_latest/vol/images/employees.gif",
-    "158/mysql/mysql_latest/vol/images/employees.png",
-    "158/mysql/mysql_latest/vol/images/employees 2.jpg",
-    "158/mysql/mysql_latest/vol/images/employees 2.png",
-    "158/mysql/mysql_latest/vol/images/employees 2.gif",
-    "158/mysql/mysql_latest/vol/README.md",
-    "158/mysql/mysql_latest/vol/README 2.md",
-    "158/mysql/mysql_latest/vol/MySQL-Employees-DB/images/employees.png",
-    "158/mysql/mysql_latest/vol/MySQL-Employees-DB/images/employees.jpg",
-    "158/mysql/mysql_latest/vol/MySQL-Employees-DB/images/employees.gif",
-    "158/mysql/mysql_latest/vol/MySQL-Employees-DB/README.md",
-    "158/mysql/mysql_latest/vol/MySQL-Employees-DB/README 2.md",
-    "README.md",
-    "158/hermes.md",
-    "158/Bewertungskriterien.md",
-    "hermes/Initialisierungsphase.md",
-    "hermes/Einführung.md",
-    "hermes/Realisierung.md",
-    "hermes/Konzeptphase.md"
+    "143/~$tenbanksicherung.docx"
   ]
 }

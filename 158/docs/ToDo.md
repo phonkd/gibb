@@ -3,6 +3,7 @@
 - [x] Situationsanalyse (JRO)
 - [ ] Entscheid Migrationsvarianten
 - [x] Projektauftrag
+
 # Konzept - Jamie
 
 - [x] Migrationskonzept (JRO)
@@ -17,7 +18,7 @@
 
 # Einführung - Elis
 
-- [ ] Entscheid zur Abnahme vorbereiten
+- [x] Entscheid zur Abnahme vorbereiten
 - [x] Abnahme Protokoll erstellen
 - [ ] Betriebshandbuch erstellen
-- [ ] Freigabeantrag erstellen
+- [x] Freigabeantrag erstellen
